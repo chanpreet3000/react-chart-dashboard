@@ -1,0 +1,90 @@
+.main-container {
+  padding: 0rem 3rem;
+}
+
+.drop-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+  color: black;
+  font-weight: bold;
+}
+
+.drop-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: black;
+  width: 200px;
+}
+.drop-item select {
+  width: 100%;
+  padding: 1rem 0.5rem;
+}
+
+.drop-item select .select-items {
+  padding: 1rem 0.5rem;
+}
+
+.dashboard .table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard table {
+  width: 60%;
+}
+th {
+  text-align: center;
+}
+table td,
+th {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  background-color: rgb(240, 229, 229);
+}
+table tr {
+  transition: 0.25s all;
+}
+
+table td {
+  font-size: 0.8rem;
+}
+table tr:hover {
+  transform: scale(1.01);
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.dashboard .dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.dashboard .dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.dashboard .chart-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.dashboard .chart-container .chart-item {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
